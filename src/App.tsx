@@ -1,11 +1,11 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+  BrowserRouter as Router,
 } from "react-router-dom";
 export default function App() {
     return (
-      <Router>
+      <div>
         <h1>Hello, World!</h1>
-      </Router>
+      </div>
     );
 }
