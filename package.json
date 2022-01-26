@@ -11,13 +11,12 @@
     "test:watch": "web-test-runner test/**/*.test.tsx --watch"
   },
   "dependencies": {
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "npm:@pika/react@16.13.1",
+    "react-dom": "npm:@pika/react-dom@16.13.1",
     "react-router-dom": "^6.2.1"
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.3.4",
-    "@types/react": "^17.0.38",
     "@web/dev-server": "0.1.29",
     "@web/dev-server-esbuild": "0.2.16",
     "@web/test-runner": "0.13.25",
